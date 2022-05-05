@@ -1,9 +1,9 @@
-Poll: {$ !percent } of {$ demographic } {$ poll_statement }
-{$ person organization } Praised For {$ ing thing_conceptual }
-{$ person organization } to Consider {$ thing ing }
+{$ _headline_angry }
 {$ attention } {$ person } Caught {$ ing }
 {$ attention } {$ person organization } Improves {$ thing ing } by Adding {$ thing }
-{$ _headline_angry }
+{$ organization } Closes at {$ !money[1,4] } {$ hashtag }
+{$ person organization } Praised For {$ ing thing_conceptual }
+{$ person organization } to Consider {$ thing ing }
 {$ person organization } tweets: "{$ quote }"
 Attention All {$ organization } Gamers: {$ _headline_angry }
-{$ organization } Closes at {$ !money[1,4] } {$ hashtag }
+Poll: {$ !percent } of {$ demographic } {$ poll_statement }

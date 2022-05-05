@@ -11,8 +11,8 @@ Notepad++
 Photoshop 7.0.1
 Quake 3 Arena Free Demo
 Scotty's Equation for Trans-warp Beaming
+TempleOS
 The Elder Scrolls: Daggerfall
 Vim
 Visual Studio Code
 Windows 3.1
-TempleOS
