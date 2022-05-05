@@ -1,5 +1,6 @@
 from random import random, randint, choice, choices
 from loader import read_lines
+from zalgo_text import zalgo
 
 def get_percent() -> str:
     if random() > 0.15:
@@ -19,3 +20,6 @@ def get_version() -> str:
     return choices(
         [x[1] for x in cases],
         [y[0] for y in cases])[0]
+
+def get_zalgo(text: str) -> str:
+    return zalgo.zalgo().zalgofy(text)

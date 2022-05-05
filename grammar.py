@@ -7,9 +7,10 @@ directive_start = "{$"
 directive_end = "}"
 
 def execute():
-    result = process_rule(choice(loader.read_lines("headline")))
-    result = result.replace("  ", " ")  # strip extra space generation
-    return result
+    result = (process_rule(choice(loader.read_lines("headline")))
+        .replace("  ", " ")  # strip extra space generation
+        .strip())
+    return result[0].upper() + result[1:]
 
 def tokenize(statement: str) -> list[str]:
     tokens = [statement]
@@ -33,6 +34,8 @@ def process_rule(rule: str) -> str:
 
 def process_token(token: str) -> str:
     if token.startswith(directive_start) and token.endswith(directive_end):
+        if random() > 0.9999: # "accidental" failure to resolve
+            return generative.get_zalgo(token)
         return process_directive(token[len(directive_start):-len(directive_end)].split())
     else:
         return token
