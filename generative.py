@@ -8,8 +8,38 @@ def get_percent() -> str:
     
     return choice(read_lines("special_percentage"))
 
-def get_money() -> str:
-    return f"${randint(0,100)}"
+def get_money(startMag = 2, endMag = 11) -> str:
+    val = str(randint(1,99))
+    mag = randint(startMag,endMag)
+    miniMag = (mag % 3) + 1
+    group = mag // 3
+
+    i = 0
+    result = ""
+    while i < miniMag:
+        result += val[i] if i < len(val) else "0"
+        i += 1
+    if (i < len(val)):
+        result += "."
+        while i < len(val):
+            result += val[i]
+            i += 1
+    
+    suffixes = [
+        "",
+        "K",
+        "M",
+        "B",
+        "T",
+        "qd",
+        "Qn",
+        "sx",
+        "Sp",
+        "O",
+         "N",
+    ]
+    result += suffixes[group] if group < len(suffixes) else f"e{mag}"
+    return result
 
 def get_version() -> str:
     cases = [
