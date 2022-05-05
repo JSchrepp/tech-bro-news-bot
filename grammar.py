@@ -6,6 +6,11 @@ import loader
 directive_start = "{$"
 directive_end = "}"
 
+def execute():
+    result = process_rule(choice(loader.read_lines("headline")))
+    result = result.replace("  ", " ")  # strip extra space generation
+    return result
+
 def tokenize(statement: str) -> list[str]:
     tokens = [statement]
     while (i := tokens[-1].find(directive_start)) != -1:
@@ -22,7 +27,8 @@ def tokenize(statement: str) -> list[str]:
 def process_rule(rule: str) -> str:
     result = ""
     for token in tokenize(rule):
-        result += process_token(token)
+        if (processed := process_token(token)):
+            result += processed
     return result
 
 def process_token(token: str) -> str:
@@ -48,6 +54,8 @@ def process_directive(directive: list[str]) -> str:
             return generative.get_percent()
         if c == "!money":
             return generative.get_money()
+        if c == "!version":
+            return generative.get_version()
     
     rules = []
     for file in ruleFiles:
