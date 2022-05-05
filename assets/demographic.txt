@@ -1,6 +1,8 @@
 {$ organization person } Family
 {$ organization person } Fans
 {$ organization person } Haters
+Admins
+Angel Investors
 Boomers
 Bronies
 Chads
@@ -10,6 +12,7 @@ Furries
 Girlbosses
 Hackers
 Haters of {$ demographic }
+Help Desk Staff
 Investors
 Karens
 Normies
@@ -20,5 +23,9 @@ QAnon
 Tech Bros
 Tech Hoes
 Twitch Streamers
+Users
+Venture Captialists
+Venture Communists
+Venture Feudalists
 Video Essayists
 YouTubers

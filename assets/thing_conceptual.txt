@@ -16,4 +16,5 @@ QHD
 Twitch Integration
 Two-Factor Authentication
 UHD
+Web3
 Wordle

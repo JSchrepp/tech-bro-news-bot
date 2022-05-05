@@ -1,0 +1,3 @@
+{$ tech thing_software } Owner, {$ organization person_named }, Gives Preview of {$ thing tech } {$ !version }
+{$ tech thing_software } Owner, {$ organization person_named }, Opens Access To {$ thing tech ing flavor emotion }
+{$ tech thing_software } Owner, {$ organization person_named }, to Buy {$ organization } in {$ !money } Deal

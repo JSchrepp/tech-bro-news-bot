@@ -1,24 +1,42 @@
 .NET
 Android
+Angular
+AWS
+Azure
 Basic
+Bootstrap
 C
 C#
 C++
 COBOL
+CSS
 FORTRAN
+GCP
 Go
-id Tech 1
+HTML
+id Tech
 iOS
 Java
 JavaScript
+Kubernetes
 Linux
 Machine Learning
+Meanstack
 Mobile
+MongoDB
+Node.js
 Objective-C
+Perl
+PHP
 Python
+React
 Ruby
 Rust
+SASS
+SQL
 Swift
+TypeScript
 Unity
 Unreal Engine
+Vue.js
 x86 Assembly

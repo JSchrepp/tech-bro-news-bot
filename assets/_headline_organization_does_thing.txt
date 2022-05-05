@@ -1,0 +1,3 @@
+{$ person organization } Secures Money From Investors, Including {$ person organization }
+{$ person organization } to Consider {$ thing ing }
+{$ person organization } tweets: "{$ quote }"
