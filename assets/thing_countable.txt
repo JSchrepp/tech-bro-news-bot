@@ -1,0 +1,19 @@
+{$ adjective } {$ thing_countable }
+{$ flavor ?0.5 } Monster Energy
+{$ flavor ?0.5 } Mountain Dew
+{$ flavor ?0.5 } White Claw
+Apple II
+BBS
+Cat
+Cats
+Custom Keycaps
+Dog
+Dogs
+Earnings Report
+Exploit
+Half-hour Standup
+Emotional Support Programmer Socks
+NFT of {$ thing flavor }
+Pull Request
+S&P 500
+Sealed Copy of {$ thing_software }

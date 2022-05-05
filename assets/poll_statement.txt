@@ -1,0 +1,12 @@
+Approve of {$ adjective ?0.5 } {$ thing person organization demographic tech }
+Approve of {$ ing }
+Believe {$ thing_conceptual } Is {$ thing_conceptual }
+Believe in {$ adjective ?0.5 } {$ thing person organization demographic tech }
+Consider {$ adjective ?0.5 } {$ thing person organization demographic tech } to be {$ adjective }
+Deny {$ adjective ?0.5 } {$ thing_conceptual tech ing }
+Don't Particularly Care About {$ adjective ?0.5 } {$ thing person organization demographic tech }
+Express {$ emotion } towards {$ adjective ?0.5 } {$ thing person organization demographic tech }
+Hate {$ adjective ?0.5 } {$ thing person organization demographic tech }
+Have Never Heard of {$ adjective ?0.5 } {$ thing person organization demographic tech }
+Love {$ adjective ?0.5 } {$ thing person organization demographic tech }
+Own {$ thing_countable }

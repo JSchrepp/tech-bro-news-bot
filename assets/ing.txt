@@ -1,0 +1,9 @@
+Being {$ adjective thing_countable }
+Developing New {$ thing_conceptual } Using {$ tech } {$ ?0.3 !version }
+Exploiting New {$ thing_conceptual demographic } Market 
+Goofing Off While {$ ing }
+Investing in {$ thing ing }
+Monetizing {$ thing }
+Researching {$ thing demographic }
+Revolutionizing the {$ thing_conceptual } Market by Combining {$ thing } With {$ thing }
+Tweeting About {$ thing person organization demographic }

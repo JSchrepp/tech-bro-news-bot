@@ -1,0 +1,24 @@
+.NET
+Android
+Basic
+C
+C#
+C++
+COBOL
+FORTRAN
+Go
+id Tech 1
+iOS
+Java
+JavaScript
+Linux
+Machine Learning
+Mobile
+Objective-C
+Python
+Ruby
+Rust
+Swift
+Unity
+Unreal Engine
+x86 Assembly

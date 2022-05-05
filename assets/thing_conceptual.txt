@@ -1,0 +1,19 @@
+{$ adjective } {$ thing_conceptual }
+{$ flavor ?0.5 } Smart Contracts
+4K
+BitCoin
+Blockchain-based Authentication
+D&D
+Doge
+E3
+Game Awards
+GitHub
+Light-mode
+Monday Standup
+Nintendo Direct
+Pull Requests
+QHD
+Twitch Integration
+Two-Factor Authentication
+UHD
+Wordle

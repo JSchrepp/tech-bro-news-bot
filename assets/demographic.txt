@@ -1,0 +1,24 @@
+{$ organization person } Family
+{$ organization person } Fans
+{$ organization person } Haters
+Boomers
+Bronies
+Chads
+Family of {$ demographic }
+Fans of {$ demographic }
+Furries
+Girlbosses
+Hackers
+Haters of {$ demographic }
+Investors
+Karens
+Normies
+Philosophers
+Politicians
+QAnon
+Tech Bros
+Tech Hoes
+Twitch Streamers
+Video Essayists
+YouTubers
+PMs
