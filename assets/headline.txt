@@ -6,4 +6,4 @@ Poll: {$ !percent } of {$ demographic } {$ poll_statement }
 {$ _headline_angry }
 {$ person organization } tweets: "{$ quote }"
 Attention All {$ organization } Gamers: {$ _headline_angry }
-{$ organization } Closes at {$ !money } {$ hashtag }
+{$ organization } Closes at {$ !money[1,4] } {$ hashtag }

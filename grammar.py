@@ -55,8 +55,8 @@ def process_directive(directive: list[str]) -> str:
     for c in commands:
         if c == "!percent":
             return generative.get_percent()
-        if c == "!money":
-            return generative.get_money()
+        if c.startswith("!money"):
+            return process_money_command(c)
         if c == "!version":
             return generative.get_version()
     
@@ -68,3 +68,9 @@ def process_directive(directive: list[str]) -> str:
         raise ValueError("No rules to choose from in directive: " + ' '.join(directive))
     
     return process_rule(choice(rules))
+
+def process_money_command(c):
+    if (i := c.find('[')) > 0 and (j := c.find(']')) > 0:
+        magBounds = c[i+1:j].split(',')
+        return generative.get_random_money(int(magBounds[0]), int(magBounds[1]))
+    return generative.get_random_money()

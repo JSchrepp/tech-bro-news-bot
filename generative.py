@@ -8,21 +8,28 @@ def get_percent() -> str:
     
     return choice(read_lines("special_percentage"))
 
-def get_money(startMag = 2, endMag = 11) -> str:
-    val = str(randint(1,99))
+def get_random_money(startMag = 2, endMag = 11) -> str:
+    d1 = randint(1,9)
+    d2 = randint(0,9)
+    sciNotationDigitString = str(d1)
+    if d2 > 0:
+        sciNotationDigitString += str(d2)
     mag = randint(startMag,endMag)
-    miniMag = (mag % 3) + 1
-    group = mag // 3
+    return get_money(sciNotationDigitString, mag)
+
+def get_money(digits: str, mag: int) -> str:
+    miniMag = ((mag - 1) % 3) + 1
+    group = ((mag - 1) // 3)
 
     i = 0
     result = ""
     while i < miniMag:
-        result += val[i] if i < len(val) else "0"
+        result += digits[i] if i < len(digits) else "0"
         i += 1
-    if (i < len(val)):
+    if (i < len(digits)):
         result += "."
-        while i < len(val):
-            result += val[i]
+        while i < len(digits):
+            result += digits[i]
             i += 1
     
     suffixes = [
@@ -39,7 +46,7 @@ def get_money(startMag = 2, endMag = 11) -> str:
          "N",
     ]
     result += suffixes[group] if group < len(suffixes) else f"e{mag}"
-    return result
+    return "$" + result
 
 def get_version() -> str:
     cases = [

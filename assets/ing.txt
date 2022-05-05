@@ -1,4 +1,4 @@
-Being {$ adjective thing_countable }
+Being {$ adjective flavor }
 Developing New {$ thing_conceptual } Using {$ tech } {$ ?0.3 !version }
 Exploiting New {$ thing_conceptual demographic } Market 
 Goofing Off While {$ ing }
