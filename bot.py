@@ -17,3 +17,5 @@ def send_tweet():
    )
 
    response = client.create_tweet(text=execute())
+
+send_tweet()
