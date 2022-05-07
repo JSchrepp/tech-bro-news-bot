@@ -1,18 +1,26 @@
+Animal Crossing
+CRON
 Doom (1993)
 Fallout 2
+Halo
+IntelliJ
 Libre Office
-Mac OS 9.1
+Mac OS {$ ?0.5 !version}
+Mac OS 9
 Microsoft 3D Movie Maker
 Microsoft Flight Simulator
 Microsoft Teams
 MS-DOS
 Netscape 4
 Notepad++
-Photoshop 7.0.1
+Photoshop {$ ?0.5 !version}
 Quake 3 Arena Free Demo
 Scotty's Equation for Trans-warp Beaming
+Skyrim v{$ !version}
 TempleOS
 The Elder Scrolls: Daggerfall
 Vim
+Visual Studio
 Visual Studio Code
+Windows {$ ?0.5 !version}
 Windows 3.1

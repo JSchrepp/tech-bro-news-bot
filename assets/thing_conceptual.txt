@@ -1,20 +1,28 @@
 {$ adjective } {$ thing_conceptual }
+{$ day_of_week} Standup
 {$ flavor ?0.5 } Smart Contracts
 4K
 BitCoin
 Blockchain-based Authentication
+Bluetooth
 D&D
 Doge
 E3
+Ethernet
+Facebook
 Game Awards
 GitHub
+Instagram
 Light-mode
-Monday Standup
 Nintendo Direct
 Pull Requests
 QHD
+Reddit
+Tumblr
 Twitch Integration
+Twitter
 Two-Factor Authentication
 UHD
 Web3
+Wifi
 Wordle

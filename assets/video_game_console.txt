@@ -1,0 +1,53 @@
+{$ !adjective } Famicom
+Atari 2600
+Atari 5200
+Atari 7800
+Atari Jaguar
+Atari Lynx
+Commodore 64
+Famicom
+Game Boy
+Game Boy Advance
+Game Boy Advance SP
+Game Boy Color
+GameCube
+Neo Geo
+Neo Geo CD
+Neo Geo Pocket
+Neo Geo X
+NES
+New Nintendo 3DS
+Nintendo {$ thing_concrete}
+Nintendo 2DS
+Nintendo 3DS
+Nintendo 3DS XL
+Nintendo 64
+Nintendo DS
+Nintendo DS Lite
+Nintendo DSi
+Nintendo Switch
+NVidia Shield Portable
+PlayStation
+PlayStation 2
+PlayStation 3
+PlayStation 4
+PlayStation 5
+PlayStation Portable
+PlayStation Vita
+Sega CD
+Sega Dreamcast
+Sega Game Gear
+Sega Genesis
+Sega Mark III
+Sega Nomad
+Sega Saturn
+Sega SG-1000
+SNES
+Steam Deck
+Super Famicom
+Wii
+Wii U
+Xbox
+Xbox 360
+Xbox One
+Xbox Series

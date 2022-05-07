@@ -1,9 +1,12 @@
-{$ adjective } {$ thing_countable }
+{$ video_game_console}
+{$ adjective } {$ thing_concrete }
 {$ flavor ?0.5 } Monster Energy
 {$ flavor ?0.5 } Mountain Dew
 {$ flavor ?0.5 } White Claw
+Amazon Echo {$?0.4 thing_concrete}
 Apple II
 BBS
+Bug Bounty
 Cat
 Cats
 Custom Keycaps
@@ -11,9 +14,16 @@ Dog
 Dogs
 Earnings Report
 Emotional Support Programmer Socks
+Ethernet
 Exploit
 Half-hour Standup
 NFT of {$ thing flavor }
+Office Thermostat
+Pokéball
 Pull Request
 S&P 500
 Sealed Copy of {$ thing_software }
+SIM Card
+Smart {$ thing_concrete}
+Surface™ Device
+Wifi

@@ -1,3 +1,8 @@
 {$ person organization } Secures Money From Investors, Including {$ person organization }
 {$ person organization } to Consider {$ thing ing }
 {$ person organization } tweets: "{$ quote }"
+{$ organization } Closes at {$ !money[1,4] }{$ ?0.45 outro }
+{$ organization } Hit With {$ problem }{$ ?0.45 outro }
+{$ organization } Shareholders Sue over Recent Activity, {$ person }: "{$ quote }"
+{$ organization } to Pay {$ !money } to {$ organization person } in Settlement Over {$ thing ing }
+{$ organization }'s Revenue Growth {$ comparison_verb } Expectation, Stocks {$ direction_verb }

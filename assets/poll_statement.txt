@@ -9,4 +9,4 @@ Express {$ emotion } towards {$ adjective ?0.5 } {$ thing person organization de
 Hate {$ adjective ?0.5 } {$ thing person organization demographic tech }
 Have Never Heard of {$ adjective ?0.5 } {$ thing person organization demographic tech }
 Love {$ adjective ?0.5 } {$ thing person organization demographic tech }
-Own {$ thing_countable }
+Own {$ thing_concrete }

@@ -1,2 +1,2 @@
  {$ hashtag }
-, {$ person }: "{$ quote }"
+. {$ person }: "{$ quote }"
