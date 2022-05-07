@@ -20,6 +20,6 @@ Finally, directives can contain commands, notated `!<command>`. Currently suppor
 
 | Command  | Description |
 | ------------- | ------------- |
-| `!percent`  | Generates a random integer [0,100] and attatches a `%` character to the end. 15% chance to instead select a rule from `special_percentage.txt` |
-| `!money`  | Generates a random monetary value of 2 significant figures between $1 and $99B. |
+| `!percent`  | Generates a random integer [0,100] and attaches a `%` character to the end. 15% chance to instead select a rule from `special_percentage.txt` |
+| `!money`  | Generates a random monetary value of 2 significant figures. Defaults to an order of magnitude range of [2,11], but can be specified by appending `[min,max]` to the command. |
 | `!version` | Generates a random version string with 50% chance of only major version number, 40% chance of major.minor string, and 10% chance of major.minor.patch string. Possible values include [0,12].[0,50].[0,999]. |
