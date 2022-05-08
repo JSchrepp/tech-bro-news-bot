@@ -1,4 +1,4 @@
-from random import random, choice
+from random import random, choice, randint
 
 import generative
 import loader
@@ -57,6 +57,8 @@ def process_directive(directive: list[str]) -> str:
             return generative.get_percent()
         if c.startswith("!money"):
             return process_money_command(c)
+        if c.startswith("!int"):
+            return process_int_command(c)
         if c == "!version":
             return generative.get_version()
     
@@ -70,7 +72,17 @@ def process_directive(directive: list[str]) -> str:
     return process_rule(choice(rules))
 
 def process_money_command(c):
+    if (optionalMagRange := parse_optional_bracket_range(c)):
+        return generative.get_random_money(int(optionalMagRange[0]), int(optionalMagRange[1]))
+    return generative.get_random_money()
+
+def process_int_command(c):
+    if (optionalRange := parse_optional_bracket_range(c)):
+        return randint(int(optionalRange[0]), int(optionalRange[1]))
+    return randint(1,9)
+
+def parse_optional_bracket_range(c):
     if (i := c.find('[')) > 0 and (j := c.find(']')) > 0:
         magBounds = c[i+1:j].split(',')
-        return generative.get_random_money(int(magBounds[0]), int(magBounds[1]))
-    return generative.get_random_money()
+        return (magBounds[0], magBounds[1])
+    return None
