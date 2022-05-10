@@ -1,0 +1,1 @@
+{$ thing_software } May Charge "{$ adjective } {$ demographic }" Says {$ person }{$ ?0.45 outro }

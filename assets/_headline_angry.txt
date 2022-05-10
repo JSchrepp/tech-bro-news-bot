@@ -1,3 +1,4 @@
+{$ attention ?0.3 } {$ person organization } Ratio'd For {$ ing }
+{$ attention ?0.3 } {$ person organization } Ratio'd For Involvement With {$ thing organization }
 {$ attention ?0.3 } {$ person organization } Under Fire For {$ ing thing_conceptual }
-{$ person organization } Ratio'd For {$ ing }
-{$ person organization } Ratio'd For Involvement With {$ thing organization }
+{$ attention } {$ person } Caught {$ ing }

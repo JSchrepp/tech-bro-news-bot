@@ -1,12 +1,9 @@
 {$ _headline_acquisition }
 {$ _headline_angry }
+{$ _headline_happy }
 {$ _headline_organization_does_thing }
 {$ _headline_owner_does_thing }
+{$ _headline_product_does_thing }
 {$ attention ?0.5 } Inside the Movement to Ban {$ organization } Use of {$ tech thing_conceptual }
-{$ attention } {$ person } Caught {$ ing }
-{$ attention } {$ person organization } Improves {$ thing ing } by Adding {$ thing }
-{$ person organization } Praised For {$ ing thing_conceptual }
 {$ problem } May Have {$ adjective } Solution: {$ thing tech }
-{$ thing_software } May Charge "High-bandwidth {$ demographic }" Says {$ person }{$ ?0.45 outro }
-Attention All {$ organization } Gamers: {$ _headline_angry }
 Poll: {$ !percent } of {$ demographic } {$ poll_statement }
