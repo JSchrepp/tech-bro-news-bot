@@ -1,4 +1,4 @@
-{$ adjective } {$ adjective }
+{$ adjective }, {$ adjective }
 Based
 Cringe
 Dope
@@ -10,4 +10,4 @@ Poggers
 Spoopy
 Tasty
 Trans
-XL
+Xtra Large

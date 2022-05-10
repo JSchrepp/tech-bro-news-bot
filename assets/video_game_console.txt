@@ -17,6 +17,7 @@ Neo Geo Pocket
 Neo Geo X
 NES
 New Nintendo 3DS
+Nintendo {$ !int }DS
 Nintendo {$ thing_concrete}
 Nintendo 2DS
 Nintendo 3DS
@@ -26,8 +27,10 @@ Nintendo DS
 Nintendo DS Lite
 Nintendo DSi
 Nintendo Switch
+NVidia Shield
 NVidia Shield Portable
 PlayStation
+PlayStation {$ !int[6,16]}
 PlayStation 2
 PlayStation 3
 PlayStation 4
@@ -50,4 +53,7 @@ Wii U
 Xbox
 Xbox 360
 Xbox One
-Xbox Series
+Xbox One S
+Xbox One X
+Xbox Series S
+Xbox Series X
