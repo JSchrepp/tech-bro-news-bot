@@ -54,13 +54,13 @@ def process_directive(directive: list[str]) -> str:
 
     for c in commands:
         if c == "!percent":
-            return generative.get_percent()
+            return process_rule(generative.get_percent())
         if c.startswith("!money"):
-            return process_money_command(c)
+            return process_rule(process_money_command(c))
         if c.startswith("!int"):
-            return process_int_command(c)
+            return process_rule(process_int_command(c))
         if c == "!version":
-            return generative.get_version()
+            return process_rule(generative.get_version())
     
     rules = []
     for file in ruleFiles:
@@ -78,8 +78,8 @@ def process_money_command(c):
 
 def process_int_command(c):
     if (optionalRange := parse_optional_bracket_range(c)):
-        return randint(int(optionalRange[0]), int(optionalRange[1]))
-    return randint(1,9)
+        return str(randint(int(optionalRange[0]), int(optionalRange[1])))
+    return str(randint(1,9))
 
 def parse_optional_bracket_range(c):
     if (i := c.find('[')) > 0 and (j := c.find(']')) > 0:
