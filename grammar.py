@@ -1,3 +1,4 @@
+from datetime import date
 from random import random, choice, randint
 
 import generative
@@ -61,6 +62,8 @@ def process_directive(directive: list[str]) -> str:
             return process_rule(process_int_command(c))
         if c == "!version":
             return process_rule(generative.get_version())
+        if c == "!year":
+            return str(date.today().year)
     
     rules = []
     for file in ruleFiles:
