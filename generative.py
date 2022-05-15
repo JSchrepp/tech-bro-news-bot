@@ -1,12 +1,12 @@
 from random import random, randint, choice, choices
-from loader import read_lines
+from loader import search_rules
 from zalgo_text import zalgo
 
 def get_percent() -> str:
     if random() > 0.15:
         return f"{randint(0,100)}%"
     
-    return choice(read_lines("special_percentage"))
+    return choice(search_rules("special_percentage"))
 
 def get_random_money(startMag = 2, endMag = 11) -> str:
     d1 = randint(1,9)

@@ -7,7 +7,7 @@ directive_start = "{$"
 directive_end = "}"
 
 def execute():
-    result = (process_rule(choice(loader.read_lines("headline")))
+    result = (process_rule(choice(loader.search_rules("headline")))
         .replace("  ", " ")  # strip extra space generation
         .strip())
     return result[0].upper() + result[1:]
@@ -64,7 +64,7 @@ def process_directive(directive: list[str]) -> str:
     
     rules = []
     for file in ruleFiles:
-        rules += loader.read_lines(file)
+        rules += loader.search_rules(file)
     
     if not rules:
         raise ValueError("No rules to choose from in directive: " + ' '.join(directive))

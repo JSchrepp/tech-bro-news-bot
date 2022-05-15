@@ -1,10 +1,14 @@
 from os import listdir
 
-def read_lines(filePrefix: str) -> list[str]:
+def search_rules(filePrefix: str) -> list[str]:
     fileNames = [f for f in listdir("assets") if f.startswith(filePrefix)]
-    lines = []
+    rules = []
     for fileName in fileNames:
-        with open(f"assets/{fileName}", mode='r', encoding="utf-8") as file:
-            lines += [line.rstrip('\n') for line in file.readlines()]
-            file.close()
+        rules += read_lines(f"assets/{fileName}")
+    return rules
+
+def read_lines(filePath: str) -> list[str]:
+    with open(filePath, mode='r', encoding="utf-8") as file:
+        lines = [line.rstrip('\n') for line in file.readlines()]
+        file.close()
     return lines
