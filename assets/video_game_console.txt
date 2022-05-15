@@ -18,7 +18,7 @@ Neo Geo X
 NES
 New Nintendo 3DS
 Nintendo {$ !int }DS
-Nintendo {$ thing_concrete}
+Nintendo {$ thing_concrete }
 Nintendo 2DS
 Nintendo 3DS
 Nintendo 3DS XL

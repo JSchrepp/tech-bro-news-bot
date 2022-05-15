@@ -1,10 +1,5 @@
 {$ _headline_acquisition }
 {$ _headline_angry }
+{$ _headline_does_thing }
 {$ _headline_happy }
-{$ _headline_organization_does_thing }
-{$ _headline_owner_does_thing }
-{$ _headline_product_does_thing }
-{$ attention ?0.5 } Inside the Movement to Ban {$ organization } Use of {$ tech thing_conceptual }
-{$ person organization }: "Unattended {$ thing_concrete } Will be Upgraded to Run {$ thing_software }"
-{$ problem } May Have {$ adjective } Solution: {$ thing tech }
 Poll: {$ !percent } of {$ demographic } {$ poll_statement }

@@ -8,9 +8,11 @@ Bootstrap
 C
 C#
 C++
+Clang
 COBOL
 CSS
 FORTRAN
+GCC
 GCP
 Go
 HTML

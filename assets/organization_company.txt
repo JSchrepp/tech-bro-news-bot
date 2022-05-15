@@ -16,6 +16,7 @@ Expedia
 Facebook
 FromSoft
 GameStop
+Gartner
 Google
 GrubHub
 HP

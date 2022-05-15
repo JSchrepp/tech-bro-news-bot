@@ -1,6 +1,7 @@
 Being {$ adjective flavor }
 Developing New {$ thing_conceptual } Using {$ tech } {$ ?0.3 !version }
 Exploiting New {$ thing_conceptual demographic } Market 
+Force Pushing to Main Branch
 Goofing Off While {$ ing }
 Investing in {$ thing ing }
 Monetizing {$ thing }

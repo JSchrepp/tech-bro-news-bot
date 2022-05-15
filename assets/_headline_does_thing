@@ -1,0 +1,12 @@
+{$ organization } Closes at {$ !money[1,4] }{$ ?0.45 outro }
+{$ organization } Hit With {$ problem }{$ ?0.45 outro }
+{$ organization } Shareholders Sue over Recent Activity{$ outro }
+{$ organization } to Pay {$ !money } to {$ organization person } in Settlement Over {$ thing ing }
+{$ organization }'s Revenue Growth {$ comparison_verb } Expectation, Stocks {$ direction_verb }
+{$ organization person_named person_clarified } Gives Preview of {$ thing tech } {$ !version }
+{$ organization person_named person_clarified } Opens Access To {$ thing tech ing flavor emotion }
+{$ organization person_named person_clarified } to Buy {$ organization } in {$ !money } Deal
+{$ person organization } Secures Money From Investors, Including {$ person organization }
+{$ person organization } to Consider {$ thing ing }
+{$ person organization } tweets: "{$ quote }"
+{$ thing_software } May Charge "{$ adjective } {$ demographic }" Says {$ person }{$ ?0.2 outro }

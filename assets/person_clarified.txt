@@ -1,0 +1,1 @@
+{$ tech thing_software } Owner, {$ organization person_named },
