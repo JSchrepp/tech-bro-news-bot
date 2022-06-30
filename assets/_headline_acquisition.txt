@@ -1,2 +1,2 @@
-{$ attention } FTC Approves Merger of {$ organization } and {$ organization } {$ hashtag }
-{$ organization person } Set to Acquire {$ organization }. {$ ?0.2 outro }"
+{$ attention } FTC Approves Merger of {$ organization } and {$ organization } {$ ?0.3 hashtag }
+{$ organization person } Set to Acquire {$ organization }{$ ?0.2 outro }
