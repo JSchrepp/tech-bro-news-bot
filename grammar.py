@@ -53,6 +53,7 @@ def process_directive(directive: list[str]) -> str:
     commands = [x for x in directive if isCommand(x)]
     ruleFiles = [x for x in directive if isRuleFile(x)]
 
+    stripPunctuation = False
     for c in commands:
         if c == "!percent":
             return process_rule(generative.get_percent())
@@ -64,6 +65,8 @@ def process_directive(directive: list[str]) -> str:
             return process_rule(generative.get_version())
         if c == "!year":
             return str(date.today().year)
+        if c == "!stripPunc":
+            stripPunctuation = True        
     
     rules = []
     for file in ruleFiles:
@@ -72,7 +75,10 @@ def process_directive(directive: list[str]) -> str:
     if not rules:
         raise ValueError("No rules to choose from in directive: " + ' '.join(directive))
     
-    return process_rule(choice(rules))
+    result = process_rule(choice(rules))
+    if stripPunctuation:
+        result = result.strip(",.;:?!")
+    return result
 
 def process_money_command(c):
     if (optionalMagRange := parse_optional_bracket_range(c)):

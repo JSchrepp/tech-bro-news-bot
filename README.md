@@ -20,7 +20,8 @@ Finally, directives can contain commands, notated `!<command>`. Currently suppor
 
 | Command  | Description |
 | ------------- | ------------- |
-| `!int`     | Generates a random integer value. Defaults to a non-zero single digit value, but range can be specified by appending `[min,max]` to the command. |
-| `!money`   | Generates a random monetary value of 2 significant figures. Defaults to an order of magnitude range of [2,11], but can be specified by appending `[min,max]` to the command. |
-| `!percent` | Generates a random integer [0,100] and attaches a `%` character to the end. 15% chance to instead select a rule from `special_percentage.txt` |
-| `!version` | Generates a random version string with 50% chance of only major version number, 40% chance of major.minor string, and 10% chance of major.minor.patch string. Possible values include [0,12].[0,50].[0,999]. |
+| `!int`       | Generates a random integer value. Defaults to a non-zero single digit value, but range can be specified by appending `[min,max]` to the command. |
+| `!money`     | Generates a random monetary value of 2 significant figures. Defaults to an order of magnitude range of [2,11], but can be specified by appending `[min,max]` to the command. |
+| `!percent`   | Generates a random integer [0,100] and attaches a `%` character to the end. 15% chance to instead select a rule from `special_percentage.txt` |
+| `!stripPunc` | Strips leading and trailing punctuation from the processed result. |
+| `!version`   | Generates a random version string with 50% chance of only major version number, 40% chance of major.minor string, and 10% chance of major.minor.patch string. Possible values include [0,12].[0,50].[0,999]. |
