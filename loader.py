@@ -1,10 +1,13 @@
 from os import listdir
+from pathlib import Path
+
+_assetsDir = Path(__file__).parent / 'assets'
 
 def search_rules(filePrefix: str) -> list[str]:
-    fileNames = [f for f in listdir("assets") if f.startswith(filePrefix)]
+    fileNames = [f for f in listdir(_assetsDir) if f.startswith(filePrefix)]
     rules = []
     for fileName in fileNames:
-        rules += read_lines(f"assets/{fileName}")
+        rules += read_lines(_assetsDir / fileName)
     return rules
 
 def read_lines(filePath: str) -> list[str]:
