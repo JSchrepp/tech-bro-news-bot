@@ -1,6 +1,8 @@
+{$ organization_university ?0.5 } Debate Team
+{$ organization_university ?0.5 } ESports League
+{$ organization_university ?0.5 } Robotics Team
 {$ person organization }'s MLM
 CERN
-ESports League
 IAU
 ICANN
 IEEE

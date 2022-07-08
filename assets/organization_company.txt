@@ -1,12 +1,15 @@
 Acer
 Activision-Blizzard
 Air B&B
+Alphabet
 Amazon
 AMD
 Apple
 Asus
 AT&T
+Best Buy
 Bose
+Circuit City
 Comcast
 Dell
 Discord
@@ -15,6 +18,7 @@ Ebay
 Expedia
 Facebook
 FromSoft
+Gamer's Nexus
 GameStop
 Gartner
 Google
@@ -26,9 +30,11 @@ Intel
 Intuit
 Lenovo
 LG
+Linus Media Group
 Logitech
 Lyft
 Meta
+Micro Center
 Microsoft
 Mozilla
 MSI
@@ -38,6 +44,7 @@ Nintendo
 NVidia
 Oracle
 Panasonic
+Radio Shack
 Razer
 Reddit
 Samsung

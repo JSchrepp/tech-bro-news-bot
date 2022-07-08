@@ -1,5 +1,5 @@
-{$ _headline_acquisition }
 {$ _headline_angry }
 {$ _headline_does_thing }
 {$ _headline_happy }
+{$ _headline_statement }
 Poll: {$ !percent } of {$ demographic } {$ poll_statement }

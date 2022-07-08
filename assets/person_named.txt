@@ -1,4 +1,5 @@
 Amelia Bedelia
+Ben Shapiro
 Bill Gates
 Elon Musk
 Foone
@@ -6,6 +7,8 @@ James Cameron
 Jason Bourne
 Jeff Bezos
 Joe Biden
+Jordan Peterson
+Linus Sebastian
 Linus Torvalds
 Mark Zuckerberg
 Neo
@@ -14,7 +17,8 @@ Ninja
 Pewdipie
 Satya Nadella
 Sundar Pichai
-the Pope
+Pope
 Tim Cook
 Tony Stark
+Vitalik Buterin
 Zucc

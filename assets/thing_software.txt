@@ -6,7 +6,6 @@ Halo
 IntelliJ
 Libre Office
 Mac OS {$ ?0.5 !version}
-Mac OS 9
 Microsoft 3D Movie Maker
 Microsoft Flight Simulator
 Microsoft Teams
@@ -17,10 +16,9 @@ Photoshop {$ ?0.5 !version}
 Quake 3 Arena Free Demo
 Scotty's Equation for Trans-warp Beaming
 Skyrim v{$ !version}
-TempleOS
+TempleOS {$ ?0.5 !version}
 The Elder Scrolls: Daggerfall
 Vim
 Visual Studio
 Visual Studio Code
 Windows {$ ?0.5 !version}
-Windows 3.1

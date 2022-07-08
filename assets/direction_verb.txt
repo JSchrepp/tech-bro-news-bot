@@ -1,5 +1,6 @@
 Dip
 Hold Steady
+Oscilate
 Plunge
 Skyrocket
 Spike
